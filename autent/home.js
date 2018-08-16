@@ -73,7 +73,7 @@ function createUsers(name, key) {
     $(".users-list").append(`
       <li>
         <span>${name}</span>
-        <button data-user-id="${key}">Fallow</button>
+        <button data-user-id="${key}">Follow</button>
       </li>
     `);
   }
