@@ -1,4 +1,4 @@
 setTimeout(function(){
-    window.location = "autent/login.html";
+    window.location = "../../login.html";
   }, 2100);
   
