@@ -1,0 +1,79 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0% auto;
+    background-color: #000;
+}
+
+a:link {
+    text-decoration:none;
+} 
+
+
+.divider {
+    height: 20vh;
+}
+
+.divider-two {
+    height: 4.1vh;
+}
+
+.divider-box {
+    height: 10vh;
+}
+
+.divider-register {
+    height: 5vh;
+}
+
+.box-image .back-img {
+    height: 100vh;
+    width: auto;
+    background-image: url(../imgs/rockon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box-image .login-box {
+    height: 45vh;
+    background-color: #000;
+    opacity: 0.8;
+}
+
+.box-image .login-box h1 {
+    padding: 4vh 0vh;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+}
+
+.box-image .login-box h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+}
+
+.box-image .login-box h2 a {
+    color: #dc3545;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+}
+
+.back-img form input:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+.select-box {
+    margin: 0vh 11vh;
+    color: #fff;
+}
+
+.select-box legend {
+    color: #dc3545;
+}
